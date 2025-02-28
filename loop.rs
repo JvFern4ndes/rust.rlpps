@@ -12,7 +12,7 @@ fn multiplicador() {
         if contador == 5 {
             continue;
         }
-        
+
         println!("{} x {} = {}", multiplicador, contador, multiplicador * contador);
     }
 
@@ -24,5 +24,9 @@ fn multiplicador() {
         if contador == 10 {
             break;
         }
+    }
+
+    for i in 1..10 {
+        println!("{} x {} = {}", multiplicador, i, multiplicador * i)
     }
 }
